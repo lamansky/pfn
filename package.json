@@ -1,0 +1,34 @@
+{
+  "name": "pfn",
+  "version": "1.0.0",
+  "description": "Possible Function. Wraps what might be a function, with fallback behavior in case it’s not. Perfect for use in functions that accept optional callback arguments.",
+  "keywords": [
+    "optional",
+    "function",
+    "callback",
+    "fallback"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/pfn",
+  "repository": "lamansky/pfn",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
