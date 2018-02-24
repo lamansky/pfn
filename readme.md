@@ -6,7 +6,7 @@ Wraps what might be a function, with fallback behavior in case it’s not. Perfe
 
 ## Installation
 
-Requires [Node.js](https://nodejs.org/) 4.0.0 or above.
+Requires [Node.js](https://nodejs.org/) 6.0.0 or above.
 
 ```bash
 npm i pfn
