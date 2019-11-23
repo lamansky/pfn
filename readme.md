@@ -12,7 +12,7 @@ npm i pfn
 
 ## API
 
-The module exports a single function.
+There are two ways you can import the module: `require('pfn')` or `require('pfn/strict')`. Each exposes a single function with the same signature. The difference is that strict mode will throw an error if `fn` is anything other than a function, `null`, or `undefined`. Normal mode will silently defer to `or` if `fn` is of an unexpected type.
 
 ### Parameters
 
@@ -69,6 +69,8 @@ sayHello(() => 'Dolly') // 'Hello, Dolly'
 ### Self Fallback
 
 If you provide the possible function as its own fallback, then you can accept either a value or a function as an argument for your code. For example, the `sayHello` function in the following example can accept either a string or a function.
+
+Don’t use the module’s strict mode (`require('pfn/strict')`) if you want self-fallback behavior, because strict mode will throw an error if the first parameter is anything other than a function, `null`, or `undefined`.
 
 ```javascript
 const pfn = require('pfn')

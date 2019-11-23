@@ -16,11 +16,15 @@
   "homepage": "https://github.com/lamansky/pfn",
   "repository": "lamansky/pfn",
   "main": "index.js",
-  "files": [],
+  "files": [
+    "strict.js"
+  ],
   "engines": {
     "node": ">=6.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "is-nil": "^1.0.1"
+  },
   "devDependencies": {
     "eslint-config-lamansky": "^2.0.0",
     "mocha": "^6.2.2"
