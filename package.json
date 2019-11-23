@@ -8,7 +8,10 @@
     "callback",
     "fallback"
   ],
-  "author": "John Lamansky",
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
   "license": "MIT",
   "homepage": "https://github.com/lamansky/pfn",
   "repository": "lamansky/pfn",
