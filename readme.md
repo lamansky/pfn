@@ -1,6 +1,4 @@
-# pfn
-
-Possible Function.
+# Possible Function (pfn)
 
 Wraps what might be a function, with fallback behavior in case it’s not. Perfect for use in functions that accept optional callback arguments.
 
@@ -97,4 +95,15 @@ callback('arg 1', 'arg 2') // 2
 
 ## Related
 
-For more projects like this, check out the [xfn](https://github.com/lamansky/xfn) family of modules.
+This module is part of the `fn` family of modules.
+
+* [efn](https://github.com/lamansky/efn): Extracted Function
+* [ffn](https://github.com/lamansky/ffn): Filtering Function
+* [jfn](https://github.com/lamansky/jfn): Joined Function
+* [mfn](https://github.com/lamansky/mfn): Memoized Function
+* [ofn](https://github.com/lamansky/ofn): Overloaded Function
+* [qfn](https://github.com/lamansky/qfn): Qualified Function
+* [vfn](https://github.com/lamansky/vfn): Variadic Function
+* [wfn](https://github.com/lamansky/wfn): Wrapper Function
+* [xfn](https://github.com/lamansky/xfn): Extended Function
+* [3fn](https://github.com/lamansky/3fn): Three-Way Comparison Function
