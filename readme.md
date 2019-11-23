@@ -31,7 +31,7 @@ Always returns a Function.
 
 ## Examples
 
-`pfn` wraps a value that may or may be a function. If the underlying value is not a function, then `pfn` will execute one of the following fallback behaviors.
+`pfn` wraps a value that may or may not be a function. If the underlying value is not a function, then `pfn` will execute one of the following fallback behaviors.
 
 ### Passthrough Fallback
 
