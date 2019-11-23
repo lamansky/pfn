@@ -1,6 +1,6 @@
 {
   "name": "pfn",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Possible Function. Wraps what might be a function, with fallback behavior in case it’s not. Perfect for use in functions that accept optional callback arguments.",
   "keywords": [
     "optional",
